@@ -13,3 +13,8 @@ There are 6 required args for this project:
 4. database user
 5. database password
 6. datasets to overwrite or create (ie: roads-t, addresspoints-t) note: the -t indicates to truncate the existing data.
+
+Aug 2026 Update: Pure Python scripts added to remove C# and ArcGIS Desktop dependencies
+- Address Points: scripts_arcpy/LoadNG911AddressPoints.py
+- Road Centerlines: scripts_arcpy/LoadNG911Roads.py
+- Helper script with functions and lookup dictionaries: scripts_arcpy/Helpers.py
